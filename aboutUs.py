@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title(" Swahili-Speech-To-Text ")
 st.write("""
-# About Group 6
+# About Group 5
 
 ## Team members
 """)
