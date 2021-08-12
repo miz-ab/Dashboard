@@ -8,7 +8,8 @@ def write():
    
     with st.spinner("Loading Home ..."):
         st.title('Speech To Text')
-        #st.image('../assets/ross.jpg', use_column_width=True)
+        #st.image('../pic.png', use_column_width=True)
+       
         st.write(
             """
            Speech recognition technology allows for hands-free control of smartphones, speakers,
