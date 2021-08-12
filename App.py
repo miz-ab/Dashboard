@@ -20,7 +20,7 @@ PAGES = {
 # render the pages
 def main():
    
-    st.sidebar.title("Salse Prediction")
+    st.sidebar.title("Transcription")
     selection = st.sidebar.selectbox("Select", list(PAGES.keys()))
 
     page = PAGES[selection]
@@ -31,8 +31,8 @@ def main():
         st.sidebar.title("INFORMATION")
         st.sidebar.info(
         """
-        This App is created for Rosemann pharmaceutical company to 
-        view predictions on sales across their stores 
+        This App is created for The World Food Program to 
+        transcribe the speech-to-text of Swahili Language. 
         """
     )
     elif selection=="Predictions":
